@@ -1,0 +1,22 @@
+settings:
+  start_date: "2010-01-01"
+
+# Inserire 5 ticker Yahoo per ciascun basket se si usa la modalità Yahoo.
+# La modalità CSV non richiede ticker.
+baskets:
+  - name: "Recession"
+    tickers: []
+  - name: "Debasement"
+    tickers: []
+  - name: "Stagflation"
+    tickers: []
+  - name: "Reflation"
+    tickers: []
+  - name: "Dollar Weakness"
+    tickers: []
+  - name: "Goldilocks Economy"
+    tickers: []
+  - name: "Disinflation / Soft Landing"
+    tickers: []
+  - name: "Deflation"
+    tickers: []

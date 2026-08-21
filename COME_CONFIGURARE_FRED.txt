@@ -1,0 +1,23 @@
+CDG Macro Regime Detector v2.3 — configurazione FRED
+
+1) Crea una API key personale gratuita nel tuo account FRED:
+   https://fred.stlouisfed.org/docs/api/api_key.html
+
+2) Avvia AVVIA_APP.bat.
+
+3) Nella barra laterale, sezione "Macro Leading Engine":
+   - incolla la FRED API key;
+   - premi "Test FRED";
+   - se il test è OK, premi "Salva key sul PC".
+
+4) Carica il file con le 8 serie dei basket. Il Macro Engine parte automaticamente.
+
+5) La key viene salvata solo localmente in:
+   config/fred_api_key.txt
+
+Se il test FRED fallisce:
+- esegui DIAGNOSTICA.bat;
+- la diagnostica ripete il test FRED e mostra l'errore preciso;
+- nell'app, tab "Macro Leading 1–3M", compare la tabella con l'errore per ogni serie.
+
+Nota: il Market Engine continua a funzionare anche senza FRED.

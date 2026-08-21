@@ -1,0 +1,3 @@
+[build]
+  command = "mkdir -p site/src site/config site/data && cp app.py site/ && cp src/* site/src/ && cp config/* site/config/ && cp data/* site/data/"
+  publish = "site"

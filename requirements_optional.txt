@@ -1,0 +1,5 @@
+# Solo per funzioni opzionali: Yahoo e vecchi formati Excel
+# Non sono necessari per avviare l'app o caricare CSV/XLSX.
+yfinance>=0.2.50
+xlrd>=2.0
+pyxlsb>=1.0.10
